@@ -17,9 +17,17 @@ Section B lab 1
  
 The game would require the server to choose a number from one to x, and the user would be able to set the number of guesses per count. If the user wishes to give up, they can restart the game again. If the user wins, they will be congratulated by the server, and if they lose, the server will display “You Lose.” This game will also have a win/ lose percent, where the user can see their percentage of winning. The webpage will congratulate the user and display their name (input from the user) on the web page with the other victors.
 
-1. Users will see the website in an HTML format.
-2.  We will use HTML, CSS, and Javascript for creating the webpage.
-3.  The webpage will welcome the user and request their username, which will lead them to the game.
+1. When entering the website; pop welcome the user
+                        “Welcome to “_____” Press play to start”
+                      Top Heading displaying the name of the game
+                             Bottom corner with the team name
+
+2. Sign in: they will be shown their progress and will be asked to continue if they wish or restart
+3. For continuing the game will have a column with score
+                1. For continue- the window will first ask the user to enter the number of guesses 
+                2. For new game the same with an option to set difficulty too
+                3. There will an exit option available in both choices
+
 4.  On the page, they will see three difficulty levels; Easy, Medium, Hard
 5.  Easy: the user would guess a number from 1-10; Medium: the user would think of a number from 1-20; Hard: the user would guess a number from 1-20, except they will only have five guesses. 
 6.  The user will pick the number of guesses they have but cannot exceed a limit set by the server (maxNum/2)
